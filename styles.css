@@ -1,0 +1,407 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* ============================= FONTS ============================= */
+
+.poppins-thin {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.poppins-extralight {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-extrabold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.poppins-black {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.poppins-thin-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.poppins-extralight-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.poppins-light-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.poppins-regular-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.poppins-medium-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.poppins-semibold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.poppins-bold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.poppins-extrabold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.poppins-black-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+/* ============================= FONTS ============================= */
+
+
+/* ============================= BODY ============================= */
+
+body {
+background-color: #E8E6E2;
+}
+
+.logoimg {
+  width: 20rem;
+  margin-bottom: 2rem;
+}
+
+header {
+  background-color: #e9dac6;
+  color: #3e3e3e;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin-bottom: 10px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  text-decoration: underline;
+  margin-top: 1rem;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+main {
+  padding: 20px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  text-decoration: underline;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  color: #222222;
+  margin-bottom: 3rem; /* Marge pour donner de l'espace entre le titre et le contenue. */
+  }
+
+.product-container {
+  display: flex;
+  flex-wrap: wrap; /* Enroule les produits */
+  justify-content: center; /* Centre les produits */
+}
+
+.product {
+  background-color: #E7E6D4;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  margin: 15px;
+  width: calc(25% - 30px); /* 4 produits par ligne avec marges */
+  transition: transform 0.3s;
+}
+
+.product:hover {
+  transform: scale(1.05);
+}
+
+.product img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.price {
+  display: block;
+  font-size: 1.5em;
+  margin: 10px 0;
+  color: #ff3932;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.submit-btn {
+  background-color: #202020;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #3e3e3e;
+}
+
+ul {
+  background-color: #222222;
+  border: #3e3e3e solid;
+  border-radius: 3rem;
+  padding: 0.6rem;
+  margin-top: 0.5rem;
+}
+
+.navbar {
+  background-color: #333;
+  overflow: hidden;
+  border-radius: 3rem;
+}
+
+.navbar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}
+
+.navbar li {
+  margin: 0 20px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  padding: 14px 20px;
+  display: block;
+  transition: all 0.3s ease;
+}
+
+.navbar a:hover {
+  background-color: #575757;
+  transform: scale(1.1);
+  border-radius: 5px;
+}
+
+.navicons {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+}
+
+.form-container {
+  background: #e9dac6;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  width: 30rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.form-group {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+h1.h1form {
+  margin-bottom: 1rem;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+}
+
+input:focus, textarea:focus {
+  border-color: #454545;
+  outline: none;
+}
+
+label {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  transition: 0.3s;
+  pointer-events: none;
+}
+
+input:focus + label,
+textarea:focus + label,
+input:not(:placeholder-shown) + label,
+textarea:not(:placeholder-shown) + label {
+    top: -1rem;
+    left: 0.1rem;
+    font-size: 12px;
+    color: #5a5a5a;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1rem;
+}
+
+button {
+  width: 10rem;
+  padding: 1rem;
+  background-color: #313131;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #4a4a4a;
+}
+
+section#products {
+  max-width: 106.25rem;
+  width: 100%;
+  margin-inline: auto;
+}
+
+.mapvideo {
+  display: flex;
+  flex-direction: row;
+ justify-content: space-evenly;
+ margin-top: 5rem;
+}
+
+
+/* ============================= BODY ============================= */
+
+/* ============================= FOOTER ============================= */
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  padding: 20px;
+  background-color: #222222;
+  color: white;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+#copyright {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-direction: column-reverse;
+  justify-content: space-between;
+}
+
+/* ============================= FOOTER ============================= */

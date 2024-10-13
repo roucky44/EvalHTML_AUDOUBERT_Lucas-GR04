@@ -12,14 +12,7 @@
 /* Appareils mobiles (petit à moyen) +   Appareils mobiles (petit à moyen) */
 @media only screen and (max-width: 767px) {
     /* Smartphone et petites tablettes */
-    #img-header {
-        display: none;
-    }
-
-    .w-50 {
-        width: 100%;
-        text-align: center;
-    }
+    
 }
 
 /* Appareils mobiles (petit à moyen) */

@@ -1,11 +1,91 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact - Mouse E-Sport</title>
+    <meta charset="UTF-8"> <!-- Typo -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Responsive -->
+    <title>Shop de Souris Gaming</title> <!-- Titre du site -->
+    <link rel="stylesheet" href="styles.css"> <!-- Lien du css avec le HTML -->
+    <link rel="stylesheet" href="responsive.css"> <!-- Lien du responsive CSS -->
 </head>
 <body>
-    
+    <header>
+        <a id="logo" href="index2.html"><img class="logoimg" src="img/logo.png" alt="Logo Mouse E-Sport"/></a>
+        <nav class="navbar">
+            <ul>
+                <li><a href="index2.html">Accueil</a></li> <!-- En mettant le #id ca jump directement au contenue -->
+                <li><a href="#products">Produits</a></li> <!-- En mettant le #id ca jump directement au contenue -->
+                <li><a href="#contact">Contact</a></li> <!-- En mettant le #id ca jump directement au contenue -->
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+      <section class="contact-form">
+      <div class="form-container">
+        <h1 class="h1form">Contactez-nous</h1> 
+         <form class="form">
+            <div class="form-group">
+                <input autocomplete="on" type="text" id="name" required>
+                <label for="name">Nom</label>
+            </div>
+            <div class="form-group">
+                <input autocomplete="on" type="email" id="email" required>
+                <label for="email">Email</label>
+            </div>
+            <div class="form-group">
+                <textarea autocomplete="on" id="message" rows="4" required></textarea>
+                <label for="message">Message</label>
+            </div>
+            <button class="submit-btn" type="submit">Envoyer</button>
+         </form>
+        </div>
+         <div class="map"></div>      
+        </section>
+
+        <section class="mapvideo">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m21!1m12!1m3!1d499.8756589255883!2d-86.53831114441049!3d39.14718773162366!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m6!3e3!4m3!3m2!1d39.1469962!2d-86.5388775!4m0!5e1!3m2!1sfr!2sfr!4v1728821934939!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+         <iframe width="600" height="450" src="https://www.youtube.com/embed/a7cbJhVRY6U?si=U0gW3O5w74xaahR8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </section>
+
+    <!--  placeholder="" bug CSS animation. -->
+    </main>
+
+    <footer>
+      <div class="footer-container">
+        <section class="footer-section-1">
+          <ul>
+            <li>
+              <a href="">Acceuil</a>
+            </li>
+            <li>
+              <a href="#products">Produits</a>
+            </li>
+            <li>
+              <a href="">Nos réalisations</a>
+            </li>
+            <li>
+              <a href="">Nos techniques</a>
+            </li>
+          </ul>
+        </section>
+
+        <section class="footer-section-2">
+          <ul>
+            <li>
+              <a href="">Nous contacter</a>
+            </li>
+          </ul>
+        </section>
+      </div>  
+
+      <div id="copyright">
+      <h3>© All rights reserved IIM | Mouse Esport</h3>
+      </div>
+
+      <div>
+        
+      </div>
+
+    </footer>
 </body>
 </html>
